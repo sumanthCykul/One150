@@ -12,6 +12,13 @@
 		FA1D171420DA8E0200FBD606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1D171220DA8E0200FBD606 /* Main.storyboard */; };
 		FA1D171620DA8E0F00FBD606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1D171520DA8E0F00FBD606 /* Assets.xcassets */; };
 		FA1D171920DA8E0F00FBD606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1D171720DA8E0F00FBD606 /* LaunchScreen.storyboard */; };
+		FA1D172120DA937E00FBD606 /* One50-Splash_Screen(960x1600).png in Resources */ = {isa = PBXBuildFile; fileRef = FA1D172020DA937D00FBD606 /* One50-Splash_Screen(960x1600).png */; };
+		FA36051A20DD054200919885 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36051920DD054200919885 /* ChallengeViewController.swift */; };
+		FA36051C20DD091800919885 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36051B20DD091800919885 /* CollectionViewCell.swift */; };
+		FA36051E20DD0B6800919885 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA36051D20DD0B6800919885 /* 3.jpeg */; };
+		FA36052020DD0B6E00919885 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA36051F20DD0B6E00919885 /* 4.jpeg */; };
+		FA36052220DD0B7900919885 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA36052120DD0B7900919885 /* 2.jpeg */; };
+		FA36052420DD0B7F00919885 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA36052320DD0B7E00919885 /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		FA1D171520DA8E0F00FBD606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1D171820DA8E0F00FBD606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1D171A20DA8E0F00FBD606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D172020DA937D00FBD606 /* One50-Splash_Screen(960x1600).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "One50-Splash_Screen(960x1600).png"; sourceTree = "<group>"; };
+		FA36051920DD054200919885 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		FA36051B20DD091800919885 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FA36051D20DD0B6800919885 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		FA36051F20DD0B6E00919885 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		FA36052120DD0B7900919885 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		FA36052320DD0B7E00919885 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +68,15 @@
 		FA1D170D20DA8E0200FBD606 /* One50 */ = {
 			isa = PBXGroup;
 			children = (
+				FA36052320DD0B7E00919885 /* 1.jpeg */,
+				FA36052120DD0B7900919885 /* 2.jpeg */,
+				FA36051D20DD0B6800919885 /* 3.jpeg */,
+				FA36051F20DD0B6E00919885 /* 4.jpeg */,
 				FA1D170E20DA8E0200FBD606 /* AppDelegate.swift */,
 				FA1D171020DA8E0200FBD606 /* ViewController.swift */,
+				FA36051920DD054200919885 /* ChallengeViewController.swift */,
+				FA36051B20DD091800919885 /* CollectionViewCell.swift */,
+				FA1D172020DA937D00FBD606 /* One50-Splash_Screen(960x1600).png */,
 				FA1D171220DA8E0200FBD606 /* Main.storyboard */,
 				FA1D171520DA8E0F00FBD606 /* Assets.xcassets */,
 				FA1D171720DA8E0F00FBD606 /* LaunchScreen.storyboard */,
@@ -122,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA36051E20DD0B6800919885 /* 3.jpeg in Resources */,
 				FA1D171920DA8E0F00FBD606 /* LaunchScreen.storyboard in Resources */,
 				FA1D171620DA8E0F00FBD606 /* Assets.xcassets in Resources */,
+				FA36052420DD0B7F00919885 /* 1.jpeg in Resources */,
 				FA1D171420DA8E0200FBD606 /* Main.storyboard in Resources */,
+				FA36052020DD0B6E00919885 /* 4.jpeg in Resources */,
+				FA1D172120DA937E00FBD606 /* One50-Splash_Screen(960x1600).png in Resources */,
+				FA36052220DD0B7900919885 /* 2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1D171120DA8E0200FBD606 /* ViewController.swift in Sources */,
+				FA36051A20DD054200919885 /* ChallengeViewController.swift in Sources */,
+				FA36051C20DD091800919885 /* CollectionViewCell.swift in Sources */,
 				FA1D170F20DA8E0200FBD606 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,9 +307,11 @@
 		FA1D171E20DA8E0F00FBD606 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
 				INFOPLIST_FILE = One50/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,16 +319,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cykul.One50;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FA1D171F20DA8E0F00FBD606 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
 				INFOPLIST_FILE = One50/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cykul.One50;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
