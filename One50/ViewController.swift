@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource,UITextFieldDelegate
 {
    
+
     let image = UIImage(named: "RadioSelected.png")
     let image2 = UIImage(named: "RadioUnSelected.png")
     let image3 = UIImage(named: "checkbox.png")
     let image4 = UIImage(named: "unCheckbox.png")
-    
+    //
     var datePicker = UIDatePicker()
-   
+   // date picker we are using for
     var activityCount = 0
     
     @IBOutlet weak var yesBtn: UIButton!
